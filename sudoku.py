@@ -18,7 +18,7 @@ Fast Sudoku solver with forward propagation of assigned values:
 
         Secondly, we do not have to check if the contraints are met.
         Because the assigned value is removed from the allowed values
-        for every cell that shares the same constrait, it is impossible
+        for every cell that shares the same constraint, it is impossible
         to assign an invalid value, unless the puzzle is invalid to begin
         with.
 
