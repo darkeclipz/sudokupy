@@ -1,5 +1,7 @@
 # Fast Sudoku solver in Python with forward propagation
 
+> This Sudoku solver has been designed specically for the Sudoku kata's on https://codewars.com.
+
 This is a fast Sudoku solver written in Python. It is inspired by the algorithm for solving constraint satisfaction problems (CSP). Essentially, it is a hard-coded CSP solver specifically for Sudoku.
 
 The order of assignment of variables is determined by the minimum remaining values heuristic (MRV). This ensures that the search space is reduced very fast, and it fails quickly.
