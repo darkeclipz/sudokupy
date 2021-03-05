@@ -8,7 +8,7 @@ If a value is set, this value is removed from all the neighbouring cells that sh
 
 This method gives two cool benefits:
     
-1. The first is that is that if a puzzle can be solved without guessing, the algorithm will follow this route. This is the result of the MRV heuristic.
+1. The first is that if a puzzle can be solved without guessing, the algorithm will follow this route. This is the result of the MRV heuristic.
 
 2. Secondly, we do not have to check if the contraints are met. Because the assigned value is removed from the allowed values for every cell that shares the same constraint, it is impossible to assign an invalid value, unless the puzzle is invalid to begin with.
 
