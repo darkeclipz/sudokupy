@@ -61,4 +61,4 @@ When forward propagating, we can speed it up even more:
 Other ideas:
 
  1. Use an ordering for value selection. Perhaps used in most/least constraints, idk, test this!
- 2. Encode the possible values as an integer with bit shifting, we can then just check an int, instead of iterating a list. First tests of this resulted in a much slower (x10 performance) implementation, so this idea should be explored in a better way.
+ 2. Encode the possible values as an integer with bit shifting, we can then just check an int, instead of iterating a list. First tests of this resulted in a much slower (x10 performance) implementation, so this idea should be explored in a better way. However, counting the possible values then results in the Hamming problem, which is also not that straightforward...
