@@ -52,3 +52,9 @@ Runtime: 0.3474690914154053 seconds
 If the provided puzzle string is an invalid puzzle, the solver will throw an `InvalidPuzzleError`.
 
 It can also easily be modified to find all the possible solutions. Simply save the solutions in the `search(...)` function when the cell is `NO_CELLS_REMAINING`, and return `False`. Don't forget to reassign the board with a solution in the `solve(...)` method, otherwise the board is empty.
+
+## Improvements
+
+When forward propagating, we can speed it up even more:
+
+ 1. If the remaining values of a neighbour is only one value, we can remove this value from all the his neighbours. This should be done recursively too!
