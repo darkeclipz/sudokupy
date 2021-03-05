@@ -57,3 +57,7 @@ When forward propagating, we can speed it up even more:
 
  1. If the remaining values of a neighbour is only one value, we can remove this value from all of his neighbours. This should be done recursively too!
  2. If case 1 happens, fill in that value, and forward propagate that one too! Currently, the algorithm only forward propagates for one step... :c
+
+Other ideas:
+
+ 1. Use an ordering for value selection. Perhaps used in most/least constraints, idk, test this!
