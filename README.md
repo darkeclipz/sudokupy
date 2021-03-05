@@ -47,4 +47,4 @@ Total assignments: 14393
 Runtime: 0.3474690914154053 seconds
 ```
 
-If the provided puzzle string is a invalid puzzle, the solver will throw an `InvalidPuzzleError`.
+If the provided puzzle string is an invalid puzzle, the solver will throw an `InvalidPuzzleError`.
