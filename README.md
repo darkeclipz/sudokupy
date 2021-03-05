@@ -57,4 +57,4 @@ It can also easily be modified to find all the possible solutions. Simply save t
 
 When forward propagating, we can speed it up even more:
 
- 1. If the remaining values of a neighbour is only one value, we can remove this value from all the his neighbours. This should be done recursively too!
+ 1. If the remaining values of a neighbour is only one value, we can remove this value from all of his neighbours. This should be done recursively too!
